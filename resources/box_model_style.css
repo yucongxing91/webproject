@@ -1,0 +1,51 @@
+/* Accent Colors */
+/* Accent 1: #007ACC */
+/* Accent 2: #E57373 */
+
+body {
+    padding: 20px; /* Moves content away from edges */
+    font-size: 16px; /* Adjust if you'd like larger text */
+}
+
+h1, h2, h3, a {
+    color: #007ACC; /* Sets text color to Accent 1 */
+}
+
+h1 {
+    text-align: center; /* Centers the large heading */
+}
+
+table, th, td {
+    border: 2px solid #E57373; /* Sets border color to Accent 2 and adjusts the size */
+    padding: 8px; /* Adds space inside the borders */
+}
+
+table {
+    border-collapse: collapse; /* Removes gaps between borders */
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none; /* Removes underline */
+}
+
+a:hover {
+    color: #E57373; /* Changes text color to Accent 2 on hover */
+}
+
+.paragraph-box-model { /* Add this class to your targeted paragraph */
+    background-color: #007ACC;
+    color: #FFFFFF;
+    width: 80%; /* Adjust based on your preference */
+    padding: 15px;
+    border: 3px dashed #E57373;
+    margin: 20px auto;
+}
+
+.div-box-model { /* Style for the div container around image */
+    background-color: #007ACC;
+    width: 646px; /* Match the width of your image */
+    padding: 15px;
+    border: 4px dotted #E57373;
+    margin: 20px auto;
+}
